@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #222;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* top */
+.top-headline {
+	margin: 25px 35px 10px;
+	font-weight: 900;
+}
+
+.top-text span {
+	font-weight: bold;
+}
+
+.top-text {
+	margin: 0 70px;
+	line-height: 50px;
+	font-size: 13px
+}
