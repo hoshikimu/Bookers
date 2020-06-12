@@ -10,13 +10,15 @@
 		</tr>
 	<% end %>
 </table>
-<div class="new-books">
-	<h4>New book</h4>
-	<%= form_for(@book) do |f| %>
-		<h4>Title</h4>
-		<%= f.text_field :title %>
-		<h4>Body</h4>
-		<%= f.text_area :body %>
-		<%= f.submit "Create Book"%>
-	<% end %>
+<div class="new-book">
+	<h4 class="new-book-headline">New book</h4>
+	<div class="new-book-form">
+		<%= form_for(@book) do |f| %>
+			<p>Title</p>
+			<%= f.text_field :title, {class: "title-box"} %>
+			<p>Body</p>
+			<%= f.text_area :body, {class: "body-box"} %>
+			<%= f.submit "Create Book", {class: "create-button"} %>
+		<% end %>
+	</div>
 </div>

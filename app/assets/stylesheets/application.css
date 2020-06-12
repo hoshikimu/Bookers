@@ -18,6 +18,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	color: #222;
+	font-family: "sans-selif";
 }
 
 .clearfix::after {
@@ -40,4 +41,63 @@
 	margin: 0 70px;
 	line-height: 50px;
 	font-size: 13px
+}
+
+/* index */
+.index-headline {
+	font-weight: 900;
+	font-size: 25px;
+	margin: 25px 30px 0;
+}
+
+.books-table {
+	margin: 25px 35px;
+	font-size: 13px;
+}
+
+.books-table td {
+	padding: 5px;
+}
+
+.new-book {
+	margin: 0 30px;
+}
+
+.new-book-headline {
+	margin-bottom: 20px;
+	font-weight: 900;
+}
+
+.new-book p {
+	font-size: 12px;
+}
+
+.title-box {
+	margin-bottom: 10px;
+}
+
+.body-box {
+	margin-bottom: 10px;
+}
+.create-button {
+	display: block;
+}
+
+/* show */
+.show-box {
+	font-size: 14px;
+}
+
+.show-box p {
+	margin: 30px 70px;
+}
+
+.show-btn {
+	margin-left: 30px;
+	font-size: 14px;
+}
+
+.show-box span {
+	font-weight: 900;
+	margin-right: 5px;
 }
