@@ -1,2 +1,15 @@
-<h1>Books#edit</h1>
-<p>Find me in app/views/books/edit.html.erb</p>
+<h1 class="edit-headline">Editing Book</h1>
+<div class="edit-form">
+	<%= form_for(@book) do |f| %>
+		<p>Title</p>
+		<%= f.text_field :title, {class: "edit-title-box"} %>
+		<p>Body</p>
+		<%= f.text_area :body, {class: "edit-body-box"} %>
+		<%= f.submit "Update Book", {class: "update-btn"} %>
+	<% end %>
+</div>
+<div class="edit-link">
+	<%= link_to "Show", book_path(@book) %>
+	<span>|</span>
+	<%= link_to "Back", books_path %>
+</div>

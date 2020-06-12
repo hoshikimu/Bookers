@@ -15,10 +15,10 @@
 	<div class="new-book-form">
 		<%= form_for(@book) do |f| %>
 			<p>Title</p>
-			<%= f.text_field :title, {class: "title-box"} %>
+			<%= f.text_field :title, {class: "new-title-box"} %>
 			<p>Body</p>
-			<%= f.text_area :body, {class: "body-box"} %>
-			<%= f.submit "Create Book", {class: "create-button"} %>
+			<%= f.text_area :body, {class: "new-body-box"} %>
+			<%= f.submit "Create Book", {class: "create-btn"} %>
 		<% end %>
 	</div>
 </div>

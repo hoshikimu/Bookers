@@ -72,14 +72,15 @@
 	font-size: 12px;
 }
 
-.title-box {
+.new-title-box {
 	margin-bottom: 10px;
 }
 
-.body-box {
+.new-body-box {
 	margin-bottom: 10px;
 }
-.create-button {
+
+.create-btn {
 	display: block;
 }
 
@@ -92,7 +93,7 @@
 	margin: 30px 70px;
 }
 
-.show-btn {
+.show-link {
 	margin-left: 30px;
 	font-size: 14px;
 }
@@ -100,4 +101,34 @@
 .show-box span {
 	font-weight: 900;
 	margin-right: 5px;
+}
+
+/* edit */
+.edit-headline {
+	margin: 30px 30px 20px 30px;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.edit-form {
+	margin: 0 30px;
+	font-size: 13px;
+}
+
+.edit-title-box {
+	margin-bottom: 10px;
+}
+
+.edit-body-box {
+	margin-bottom: 10px;
+}
+
+.update-btn {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.edit-link {
+	margin: 0 30px;
+	font-size: 13px;
 }
